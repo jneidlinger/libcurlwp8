@@ -14,3 +14,6 @@ The build depends on zlib and OpenSSL. You need to configure the project include
 Notable changes:
 
 A preprocessor definition, WINPHONE was added which does most of the WP8 specific work.
+
+TODO:
+I'll be adding an "example" Windows Runtime component that wraps some libcurl functionality, demonstrating using libcurl from an actual Windows Phone 8 app.
