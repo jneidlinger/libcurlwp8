@@ -10,3 +10,7 @@ Build instructions
 Open the Visual Studio solution at \curl-7.33.0\vs\vc12\vc12libcurl.sln
 
 The build depends on zlib and OpenSSL. You need to configure the project includes to point to zlib and OpenSSL headers.
+
+Notable changes:
+
+A preprocessor definition, WINPHONE was added which does most of the WP8 specific work.
